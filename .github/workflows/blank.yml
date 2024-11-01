@@ -27,7 +27,7 @@ jobs:
   
       - name: Run tests  
         run: |  
-          pytest  # pytestを使用してテストを実行  
+          pytest  # pytestを使用してテストを実行する  
   
       - name: Run main.py  
         run: |  
