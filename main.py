@@ -1,5 +1,6 @@
 from selenium import webdriver
 import requests
+import unittest
 
 res = requests
 url = "https://news.yahoo.co.jp"
@@ -9,3 +10,6 @@ res.get(url)
 result = res.get(url).text[:500]
 
 print(result)
+
+if __name__ == "__main__":
+    unittest.main()
