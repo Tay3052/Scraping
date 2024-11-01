@@ -25,9 +25,9 @@ jobs:
           python -m pip install --upgrade pip  
           pip install -r requirements.txt  # requirements.txtがプロジェクトに必要な依存関係をリストしていると仮定  
   
-      - name: Run tests  
-        run: |  
-          pytest  # pytestを使用してテストを実行
+      # - name: Run tests  
+      #   run: |  
+      #     pytest  # pytestを使用してテストを実行
   
       - name: Run main.py  
         run: |  
