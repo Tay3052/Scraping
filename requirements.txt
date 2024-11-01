@@ -2,3 +2,4 @@ pytest
 selenium
 requests
 pre-commit
+beautifulsoup4
